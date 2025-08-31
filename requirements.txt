@@ -1,0 +1,11 @@
+# requirements.txt for Gemini Chatbot
+# 
+# Install all dependencies with:
+#   pip install -r requirements.txt
+# 
+# Python 3.8+ is recommended
+# 
+google-genai
+# Tkinter is included with most Python installations, but if needed:
+#   pip install tk
+tk
