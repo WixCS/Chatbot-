@@ -23,7 +23,7 @@ class ChatBotGUI:
         self.button_bg = "#00adb5"
         self.button_fg = "#222831"
         # Use hardcoded API key, do not prompt user
-        self.api_key = "AIzaSyApEQ9xqlKB7Nfql5HU5XBuxd9YnVGDSP0"
+        self.api_key = "Enter the API here"
         try:
             self.client = genai.Client(api_key=self.api_key)
         except Exception as e:
@@ -196,3 +196,4 @@ if __name__ == "__main__":
     root = tk.Tk()
     app = ChatBotGUI(root)
     root.mainloop()
+
