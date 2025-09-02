@@ -1,4 +1,4 @@
-# --- GUI Chatbot using Tkinter (Clean Version) ---
+
 import tkinter as tk
 from tkinter import scrolledtext, messagebox
 from google import genai
