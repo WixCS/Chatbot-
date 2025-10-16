@@ -21,7 +21,7 @@ class ChatBotGUI:
         self.button_fg = "#222831"
 
         # API setup
-        self.api_key = "AIzaSyApEQ9xqlKB7Nfql5HU5XBuxd9YnVGDSP0"
+        self.api_key = "YOUR_API"
         try:
             self.client = genai.Client(api_key=self.api_key)
         except Exception as e:
@@ -120,3 +120,4 @@ if __name__ == "__main__":
     root = tk.Tk()
     app = ChatBotGUI(root)
     root.mainloop()
+
